@@ -1,0 +1,64 @@
+.wrapper{
+
+  margin:0 auto;
+  font-family: 'Montserrat', Helvetica, sans-serif;
+}
+
+.main{
+  background-image: url('./img/weather.jpg');
+  width:80%;
+  height: 400px;
+  margin:0 auto;
+ 
+  border:2px solid black;
+  border-radius: 15px;
+  position: absolute;
+  top: 7%;
+  left:10%;
+}
+
+.title-container{
+ position: relative;
+ top:100px;
+ left:10%;
+  font-weight: 600;
+  color:white;
+}
+
+.form-container{
+  position: relative;
+  top:20px;
+  left:10px;
+  margin-top:5%;
+  font-family: 'Montserrat', Helvetica, sans-serif;
+}
+
+.form-container input{
+  margin:5px;
+
+}
+
+.form-container div{
+  margin-left: 5px;
+  margin-top: 10px;
+}
+
+.form-container div p{
+  font-weight: 500;
+  font-size: 20px;
+  color:whitesmoke;
+}
+
+.form-container button{
+  border-radius: 5px;
+  background-color: #2eca7f ;
+  font-family: 'Montserrat', Helvetica, sans-serif;
+  border:1px solid #2eca7f;
+  color:whitesmoke;
+}
+
+.form-container button:hover{
+  border-radius: 5px;
+  background-color:#67eead ;
+  font-family: 'Montserrat', Helvetica, sans-serif;
+}
